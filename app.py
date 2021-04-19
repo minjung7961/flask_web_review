@@ -14,7 +14,9 @@ def index():  # 이름 아무거나 해도 됨
     # render_template 가 하는 일 html 안에 파이썬 문법 해석해줌 그리고 클라이언트에게 결과 값을 보내줌 이능력을 엔진이라하고 그 엔진명은 진자2라고 함 플라스크 안에 ㄴ장되어있음
 @app.route('/articles')
 def article():
-    return render_template('articles.html', hello='min jung')
+    articles = Articles()
+    print(articles[0]['body'])
+    return render_template('articles.html')
 
 # app.py 파일을 가장 먼저 실행하겠다라는 내용 (그중 이줄부터 실행할 것이란 소리)
 if __name__ == '__main__':
