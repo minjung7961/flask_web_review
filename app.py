@@ -15,8 +15,7 @@ def index():  # 이름 아무거나 해도 됨
 @app.route('/articles')
 def article():
     articles = Articles()
-    print(articles[0]['body'])
-    return render_template('articles.html')
+    return render_template('articles.html', articles=articles)
 
 # app.py 파일을 가장 먼저 실행하겠다라는 내용 (그중 이줄부터 실행할 것이란 소리)
 if __name__ == '__main__':
