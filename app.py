@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-
+from data import Articles
 app = Flask(__name__)
 
 app.debug = True  # 오류를 웹페이지 상에 보여주는 세팅 베포할땐 False
