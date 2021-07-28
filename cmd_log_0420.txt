@@ -1,0 +1,23 @@
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\alswj>cd
+C:\Users\alswj
+
+C:\Users\alswj>cd ../../apps
+
+C:\apps>cd flask_web
+
+C:\apps\flask_web>Scripts
+'Scripts' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\apps\flask_web>cd Scripts
+
+C:\apps\flask_web\Scripts>activate
+
+(flask_web) C:\apps\flask_web\Scripts>mysql --version
+'mysql' is not recognized as an internal or external command,
+operable program or batch file.
+
+(flask_web) C:\apps\flask_web\Scripts>
